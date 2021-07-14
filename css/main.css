@@ -1,0 +1,47 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* heading  */
+.heading {
+  font-weight: 700;
+  font-size: 56px;
+}
+
+.body-text {
+  font-size: 24px;
+}
+
+.btn-cta {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.footer p {
+  font-size: 20px;
+}
+
+img::selection {
+  outline: none;
+  background: none;
+}
+
+@media screen and (max-width: 991px) {
+  .heading {
+    font-weight: 700;
+    font-size: 32px;
+  }
+
+  .body-text {
+    font-size: 16px;
+  }
+
+  .footer p {
+    font-size: 14px;
+  }
+
+  .hero img {
+    max-width: 500px;
+    margin-top: 50px;
+  }
+}
